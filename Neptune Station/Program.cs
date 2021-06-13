@@ -372,9 +372,14 @@ namespace Neptune_Station
             Bag equippedBag;
             Armour equippedArmour;
         }
+        static void Introduction()
+        {
+
+        }
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
